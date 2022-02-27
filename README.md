@@ -61,13 +61,13 @@ The "Proper" Conclusion is indicated below in [Summary](#summary)
 
 ![paid](resources/paid_total.png)
 
-There is a total of 1207 of paid reviews that have received 20 or more helpful votes and those helpful votes are 50% or more than total votes.
+There is a total of _**1207 of paid reviews**_ that have received 20 or more helpful votes and those helpful votes are 50% or more than total votes.
 
 >Unpaid  Total Reviews
 
 ![unpaid](resources/unpaid_total.png)
 
-There is a total of 97839 of unpaid reviews that have received 20 or more helpful votes and those helpful votes are 50% or more than total votes.
+There is a total of _**97839 of unpaid reviews**_ that have received 20 or more helpful votes and those helpful votes are 50% or more than total votes.
 
 2.  How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
 3. What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
@@ -76,18 +76,18 @@ There is a total of 97839 of unpaid reviews that have received 20 or more helpfu
 
 ![paid](resources/paid_5stars_percentage.png)
 
-Percentage of 5 stars paid review is _*42.170671% at 509 5 stars reviews*_
+Percentage of 5 stars paid review is _**42.170671% at 509 5 stars reviews**_
 
 >Percentage 5 Stars UnPaid
 
 ![unpaid](resources/unpaid_5stars_percentage.png)
 
-Percentage of 5 stars unpaid review is _*46.870880% at 45858 5 stars reviews*_
+Percentage of 5 stars unpaid review is _**46.870880% at 45858 5 stars reviews**_
 
 
 ## Summary
 
-Looking at the analysis of Amazon Kitchen reviews above, there is no positive bias in the Vine program as paid 5 stars reviews is at _*42% from total paid reviews*_ and unpaid reviews are at _*45% from total unpaid reviews.*_ This means the percentage of unpaid 5 stars reviews are more than paid 5 stars reviews.
+Looking at the analysis of Amazon Kitchen reviews above, there is no positive bias in the Vine program as paid 5 stars reviews is at _**42% from total paid reviews**_ and unpaid reviews are at _**45% from total unpaid reviews.**_ This means the percentage of unpaid 5 stars reviews are more than paid 5 stars reviews.
 From the total of 5 stars reviews for paid and unpaid program, Vine paid 5 stars is only 1% (509) of unpaid 5 stars reviews (45858).
 
 Currently there are 107421 reviews that have received 20 or more helpful votes, see below. That means paid reviews is only 1% of the total helpful reviews in this category.
