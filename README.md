@@ -16,7 +16,7 @@ In this project, you’ll have access to approximately 50 datasets. Each one con
 
 #### 1. Decomposing the Ask
 
-Find out if there is a biased
+Determine if there is any bias toward favourable reviews from Vine members (paid reviews) in Amazon product reviews.
 
 #### 2. Identify the Datasource
 https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Kitchen_v1_00.tsv.gz
@@ -30,44 +30,69 @@ Stated in [2. Identify the Datasource](#2-identify-the-datasource)
 
 #### 5. Assemble & Clean the Data
 Create 4 dataframes from the dataset to fit in with our database tables:
-
+* review_id_table
+* products_table
+* customers_table
+* vine_table
 
 #### 6. Analyse for Trends
 
+The analysis is indicated below in [Analysis](#analysis)
 
 #### 7. Acknowledging Limitations
 The dataset is only limited to year 2015 so the trend might have changed since then.
 
 #### 8. Making the Call:
-The "Proper" Conclusion is indicated below on [Summary](#summary)
+The "Proper" Conclusion is indicated below in [Summary](#summary)
 
 ## Analysis
 
 1. How many Vine reviews and non-Vine reviews were there?
+
 >Paid  Total Reviews
 
 ![paid](resources/paid_total.png)
 
-There are
+There is a total of 1207 of paid reviews that have received 20 or more helpful votes and those helpful votes are 50% or more than total votes.
 
 >Unpaid  Total Reviews
 
 ![unpaid](resources/unpaid_total.png)
 
+There is a total of 97839 of unpaid reviews that have received 20 or more helpful votes and those helpful votes are 50% or more than total votes.
+
 2.  How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
 3. What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 
->Paid 5 Stars
+>Percentage 5 Stars Paid
 
-![Paid 5 Stars](resources/paid_5stars_percentage.png)
+![paid](resources/paid_5stars_percentage.png)
 
+Percentage of 5 stars paid review is _*42.170671% at 509 5 stars reviews*_
 
->Unpaid 5 Stars
+>Percentage 5 Stars UnPaid
 
-![Unpaid 5 Stars](resources/unpaid_5stars_percentage.png)
+![unpaid](resources/unpaid_5stars_percentage.png)
+
+Percentage of 5 stars unpaid review is _*46.870880% at 45858 5 stars reviews*_
+
 
 ## Summary
 
+Looking at the analysis of Amazon Kitchen reviews above, there is no positive bias in the Vine program as paid 5 stars reviews is at _*42% from total paid reviews*_ and unpaid reviews are at _*45% from total unpaid reviews.*_ This means the percentage of unpaid 5 stars reviews are more than paid 5 stars reviews.
+From the total of 5 stars reviews for paid and unpaid program, Vine paid 5 stars is only 1% (509) of unpaid 5 stars reviews (45858).
+
+Currently there are 107421 reviews that have received 20 or more helpful votes, see below. That means paid reviews is only 1% of the total helpful reviews in this category.
+
+>PAdditional Information
+
+![add](resources/additional_info.png)
+
+Given the dataset above, I will propose additional analysis with NLP for the columns below:
+1. review_headline: Title of Reviews
+2. review_body: Review sentences
+
+The above analysis will be able to give us customer sentiments on products and potential improvements and suggestions for the products above. Furthermore, it could also enable potentially new products to be invented that will solve their pain points.
 
 ## Appendix
 
