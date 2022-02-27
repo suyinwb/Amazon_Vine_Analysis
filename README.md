@@ -19,8 +19,10 @@ In this project, you’ll have access to approximately 50 datasets. Each one con
 Determine if there is any bias toward favourable reviews from Vine members (paid reviews) in Amazon product reviews.
 
 #### 2. Identify the Datasource
-https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Kitchen_v1_00.tsv.gz
 From this list: https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
+* https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Kitchen_v1_00.tsv.gz
+
+
 
 ### 3. Define Strategy & Metrics
 **Resource:** Google Colab, PySpark, AWS RDS, AWS S3, Postgres 12
