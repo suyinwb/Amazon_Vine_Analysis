@@ -119,3 +119,9 @@ https://eugenia-anello.medium.com/nlp-tutorial-series-d0baaf7616e0
 Python
 
 https://www.analyticsvidhya.com/blog/2017/01/ultimate-guide-to-understand-implement-natural-language-processing-codes-in-python/
+
+### AWS Case Studies
+
+* https://aws.amazon.com/solutions/case-studies/netflix/
+* https://aws.amazon.com/solutions/case-studies/finra/
+* https://aws.amazon.com/solutions/case-studies/mcdonalds-home-delivery/
