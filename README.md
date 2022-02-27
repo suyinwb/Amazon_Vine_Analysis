@@ -22,13 +22,19 @@ Determine if there is any bias toward favourable reviews from Vine members (paid
 From this list: https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
 * https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Kitchen_v1_00.tsv.gz
 
-
-
 ### 3. Define Strategy & Metrics
 **Resource:** Google Colab, PySpark, AWS RDS, AWS S3, Postgres 12
 
 #### 4. Data Retrieval Plan
-Stated in [2. Identify the Datasource](#2-identify-the-datasource)
+1. Retrieve the Amazon Reviews dataset
+2. Upload in my AWS S3 bucket
+3. Call the S3 dataset from my Google Colab workbook
+4. Assemble the data as indicated  in [5. Assemble & Clean the Data](#5-assemble--clean-the-data)
+5. create database in Amazon RDS instance
+6. create connection & corresponding server in Postgres
+7. create database schema in Postgres database
+8. From Google Colab, connect to the AWS RDS instance and populate the tables which will then populate the database tables in Postgres
+* S3 --> Google Colab --> AWS RDS instance --> Postgres RDS
 
 #### 5. Assemble & Clean the Data
 Create 4 dataframes from the dataset to fit in with our database tables:
