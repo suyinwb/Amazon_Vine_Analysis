@@ -92,7 +92,7 @@ From the total of 5 stars reviews for paid and unpaid program, Vine paid 5 stars
 
 Currently there are 107421 reviews that have received 20 or more helpful votes, see below. That means paid reviews is only 1% of the total helpful reviews in this category.
 
->PAdditional Information
+>Additional Information
 
 ![add](resources/additional_info.png)
 
