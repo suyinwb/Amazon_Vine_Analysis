@@ -44,7 +44,16 @@ The "Proper" Conclusion is indicated below on [Summary](#summary)
 ## Analysis
 
 1. How many Vine reviews and non-Vine reviews were there?
+>Paid  Total Reviews
+
+![paid](resources/paid_total.png)
+
 There are
+
+>Unpaid  Total Reviews
+
+![unpaid](resources/unpaid_total.png)
+
 2.  How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
 3. What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 
