@@ -47,3 +47,17 @@ The "Proper" Conclusion is indicated below on [Summary](#summary)
 
 
 ## Appendix
+
+### References
+
+Overview
+
+https://www.analyticsvidhya.com/blog/2021/06/part-1-step-by-step-guide-to-master-natural-language-processing-nlp-in-python/
+
+NLP Tutorial series
+
+https://eugenia-anello.medium.com/nlp-tutorial-series-d0baaf7616e0
+
+Python
+
+https://www.analyticsvidhya.com/blog/2017/01/ultimate-guide-to-understand-implement-natural-language-processing-codes-in-python/
