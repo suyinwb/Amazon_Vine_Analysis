@@ -16,9 +16,11 @@ In this project, you’ll have access to approximately 50 datasets. Each one con
 
 #### 1. Decomposing the Ask
 
+Find out if there is a biased
 
 #### 2. Identify the Datasource
-
+https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Kitchen_v1_00.tsv.gz
+From this list: https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
 
 ### 3. Define Strategy & Metrics
 **Resource:** Google Colab, PySpark, AWS RDS, AWS S3, Postgres 12
@@ -27,25 +29,33 @@ In this project, you’ll have access to approximately 50 datasets. Each one con
 Stated in [2. Identify the Datasource](#2-identify-the-datasource)
 
 #### 5. Assemble & Clean the Data
+Create 4 dataframes from the dataset to fit in with our database tables:
 
 
 #### 6. Analyse for Trends
 
 
 #### 7. Acknowledging Limitations
-
+The dataset is only limited to year 2015 so the trend might have changed since then.
 
 #### 8. Making the Call:
 The "Proper" Conclusion is indicated below on [Summary](#summary)
 
 ## Analysis
 
+1. How many Vine reviews and non-Vine reviews were there?
+There are
+2.  How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
+3. What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 
->Lot 3
+>Paid 5 Stars
 
-![Lot 3](resources/lot3.png)
+![Paid 5 Stars](resources/paid_5stars_percentage.png)
 
 
+>Unpaid 5 Stars
+
+![Unpaid 5 Stars](resources/unpaid_5stars_percentage.png)
 
 ## Summary
 
