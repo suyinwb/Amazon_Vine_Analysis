@@ -90,7 +90,7 @@ Percentage of 5 stars unpaid review is _**46.870880% at 45858 5 stars reviews**_
 Looking at the analysis of Amazon Kitchen reviews above, there is no positive bias in the Vine program as paid 5 stars reviews is at _**42% from total paid reviews**_ and unpaid reviews are at _**45% from total unpaid reviews.**_ This means the percentage of unpaid 5 stars reviews are more than paid 5 stars reviews.
 From the total of 5 stars reviews for paid and unpaid program, Vine paid 5 stars is only 1% (509) of unpaid 5 stars reviews (45858).
 
-Currently there are 107421 reviews that have received 20 or more helpful votes, see below. That means paid reviews is only 1% of the total helpful reviews in this category.
+Currently there are _**107421 reviews that have received 20 or more helpful votes**_, see below. That means paid reviews is only _**1% of the total helpful reviews**_ in this category.
 
 >Additional Information
 
